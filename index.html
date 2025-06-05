@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Autoplay Video Player</title>
+    <title>Chitransh</title>
     <style>
         /* Add some basic styling */
         body {
@@ -37,10 +37,14 @@
     </style>
 </head>
 <body>
+    <h1>Big applause and motivation:-</h1>
+    <video id="video-player-x" controls autoplay muted>
+        <source src="videox.mp4" type="video/mp4">
+    </video>
     <h1><b><pre> Chitransh Ganesh Yadav </pre></b></h1>
     <hr>
     <h1>Appraisal by Anandmayee Sohani teacher:-</h1>
-    <video id="video-player-1" controls autoplay muted>
+    <video id="video-player-1" controls autoplay >
         <source src="video1.mp4" type="video/mp4">
     </video>
     <br>
@@ -50,9 +54,14 @@
     <video id="video-player-2" controls>
         <source src="video2.mp4" type="video/mp4">
     </video>
+    <img src="appraisal.jpg" alt="Appraisal Image" style="width:300px; height:auto; margin-left:20px; border-radius:10px;">
+    
+    <br>
     <video id="video-player-3" controls>
         <source src="video3.mp4" type="video/mp4">
     </video>
+    <img src="whole.jpg" alt="Whole number" style="width:300px; height:auto; margin-left:20px; border-radius:10px;">
+    <br>
     <video id="video-player-4" controls>
         <source src="video4.mp4" type="video/mp4">
     </video>
@@ -73,6 +82,7 @@
     <script>
         // Get the video player elements
         const videoPlayers = [
+            document.getElementById("video-player-x"),
             document.getElementById("video-player-1"),
             document.getElementById("video-player-2"),
             document.getElementById("video-player-3"),
